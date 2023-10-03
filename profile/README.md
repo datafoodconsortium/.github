@@ -10,45 +10,48 @@ Here you will find all our technical information and resources. All of our work 
 
 You can chat with us on our [Slack channel](https://app.slack.com/client/T3CKZMVGR/).
 
-The consortium is meeting every week on Thursday morning. We alternate between a global coordination meeting (french) and an ontology dedicated meeting (english). Contact us on [Slack](https://app.slack.com/client/T3CKZMVGR/) or by [email](mailto:hello@datafoodconsortium.org) if you want to join.
+To discuss about technical subjects, please use our GitHub discussions.
+
+You can also contact us by [email](mailto:hello@datafoodconsortium.org).
+
+## Agenda
+
+The consortium is meeting on Zoom. Please contact us if you want to join.
+
+| Meeting | Description | Language | Date |
+| ------- | ----------- | -------- | ---- |
+| General | Global coordination meeting. General and technical subjects. | French | Bimonthly on Thursday 11h am CET |
+| Ontology | Ontology team coordination and updates - technical. | English | Bimonthly on Thursday 15h CET |
+
+## Quick overview of our work items
+
+| Repository | Discussions | Issues | PR | Licence |
+| ---------- | ----------- | ------ | -- | ------- |
+| [standard] | [discussions](https://github.com/datafoodconsortium/standard/discussions) | [issues](https://github.com/datafoodconsortium/standard/issues) | [PR](https://github.com/datafoodconsortium/standard/pulls) | [AGPL-3](https://github.com/datafoodconsortium/standard/blob/master/LICENSE) |
+| [ontology] | [discussions](https://github.com/datafoodconsortium/ontology/discussions) | [issues](https://github.com/datafoodconsortium/ontology/issues) | [PR](https://github.com/datafoodconsortium/ontology/pulls) | [AGPL-3](https://github.com/datafoodconsortium/ontology/blob/master/LICENSE) |
+| [taxonomies] | [discussions](https://github.com/datafoodconsortium/taxonomies/discussions) | [issues](https://github.com/datafoodconsortium/taxonomies/issues) | [PR](https://github.com/datafoodconsortium/taxonomies/pulls) | [AGPL-3](https://github.com/datafoodconsortium/taxonomies/blob/master/LICENSE) |
+| [prototype] | [discussions](https://github.com/datafoodconsortium/prototype/discussions) | [issues](https://github.com/datafoodconsortium/prototype/issues) | [PR](https://github.com/datafoodconsortium/prototype/pulls) | [MIT](https://github.com/datafoodconsortium/prototype/blob/master/LICENSE) |
+| [business-api] | [discussions](https://github.com/datafoodconsortium/business-api/discussions) | [issues](https://github.com/datafoodconsortium/business-api/issues) | [PR](https://github.com/datafoodconsortium/business-api/pulls) | [MIT](https://github.com/datafoodconsortium/business-api/blob/master/LICENSE) |
+| [connector-typescript] | [discussions](https://github.com/datafoodconsortium/connector-typescript/discussions) | [issues](https://github.com/datafoodconsortium/connector-typescript/issues) | [PR](https://github.com/datafoodconsortium/connector-typescript/pulls) | [MIT](https://github.com/datafoodconsortium/connector-typescript/blob/master/LICENSE) |
+| [connector-ruby] | [discussions](https://github.com/datafoodconsortium/connector-ruby/discussions) | [issues](https://github.com/datafoodconsortium/connector-ruby/issues) | [PR](https://github.com/datafoodconsortium/connector-ruby/pulls) | [MIT](https://github.com/datafoodconsortium/connector-ruby/blob/master/LICENSE) |
+| [connector-php] | [discussions](https://github.com/datafoodconsortium/connector-php/discussions) | [issues](https://github.com/datafoodconsortium/connector-php/issues) | [PR](https://github.com/datafoodconsortium/connector-php/pulls) | [MIT](https://github.com/datafoodconsortium/connector-php/blob/master/LICENSE) |
+| [connector-codegen] | [discussions](https://github.com/datafoodconsortium/connector-codegen/discussions) | [issues](https://github.com/datafoodconsortium/connector-codegen/issues) | [PR](https://github.com/datafoodconsortium/connector-codegen/pulls) | [AGPL-3](https://github.com/datafoodconsortium/connector-codegen/blob/master/LICENSE) |
+| [data-model-uml] | [discussions](https://github.com/datafoodconsortium/data-model-uml/discussions) | [issues](https://github.com/datafoodconsortium/data-model-uml/issues) | [PR](https://github.com/datafoodconsortium/data-model-uml/pulls) | [AGPL-3](https://github.com/datafoodconsortium/data-model-uml/blob/master/LICENSE) |
 
 ## Table of content
 
 - [The big picture](#the-big-picture)
 - [Technical prerequisites](#technical-prerequisites)
 - [Standard](#standard)
-  - [code](https://github.com/datafoodconsortium/standard) | [issues](https://github.com/datafoodconsortium/standard/issues) | 
-[PR](https://github.com/datafoodconsortium/standard/pulls) | 
-[doc](https://datafoodconsortium.gitbook.io/) | [AGPL-3 licence](https://github.com/datafoodconsortium/standard/blob/master/LICENSE)
 - [Ontology](#ontology)
-  - [code](https://github.com/datafoodconsortium/ontology) | [issues](https://github.com/datafoodconsortium/ontology/issues) | 
-[PR](https://github.com/datafoodconsortium/ontology/pulls) | [doc](https://datafoodconsortium.gitbook.io/dfc-standard-documentation/semantic-specifications) | [AGPL-3 licence](https://github.com/datafoodconsortium/ontology/blob/master/LICENSE)
 - [Taxonomies](#taxonomies)
-  - [code](https://github.com/datafoodconsortium/taxonomies) | [issues](https://github.com/datafoodconsortium/taxonomies/issues) | 
-[PR](https://github.com/datafoodconsortium/taxonomies/pulls) | [doc](https://github.com/datafoodconsortium/taxonomies) | [AGPL-3 licence](https://github.com/datafoodconsortium/taxonomies/blob/main/LICENSE)
 - [Prototype](#prototype)
-  - [code](https://github.com/datafoodconsortium/prototype) | [issues](https://github.com/datafoodconsortium/prototype/issues) | 
-[PR](https://github.com/datafoodconsortium/prototype/pulls) | [doc](https://github.com/datafoodconsortium/dfc-prototype-V3/wiki) | [MIT licence](https://github.com/datafoodconsortium/prototype/blob/master/LICENSE)
 - [Data model](#data-model)
-  - [code](https://github.com/datafoodconsortium/data-model-uml) | [issues](https://github.com/datafoodconsortium/data-model-uml/issues) | 
-[PR](https://github.com/datafoodconsortium/data-model-uml/pulls) | [doc](https://github.com/datafoodconsortium/data-model-uml) | [AGPL-3 licence](https://github.com/datafoodconsortium/data-model-uml/blob/main/LICENSE)
 - [Connector](#connector)
   - [TypeScript](#typescript)
-    - [code](https://github.com/datafoodconsortium/connector-typescript) | [issues](https://github.com/datafoodconsortium/connector-typescript/issues) | 
-[PR](https://github.com/datafoodconsortium/connector-typescript/pulls) | [doc](https://github.com/datafoodconsortium/connector-typescript) | [MIT licence](https://github.com/datafoodconsortium/connector-typescript/blob/main/LICENSE)
   - [Ruby](#ruby)
-    - [code](https://github.com/datafoodconsortium/connector-ruby) | [issues](https://github.com/datafoodconsortium/connector-ruby/issues) | 
-[PR](https://github.com/datafoodconsortium/connector-ruby/pulls) | [doc](https://github.com/datafoodconsortium/connector-ruby) | [MIT licence](https://github.com/datafoodconsortium/connector-ruby/blob/main/LICENSE)
-  - Source code generator
-    - [Common code generator](#common-code-generator)
-      - [code](https://github.com/datafoodconsortium/connector-codegen-common) | [issues](https://github.com/datafoodconsortium/connector-codegen-common/issues) | 
-[PR](https://github.com/datafoodconsortium/connector-codegen-common/pulls) | [doc](https://github.com/datafoodconsortium/connector-codegen-common) | [AGPL-3 licence](https://github.com/datafoodconsortium/connector-codegen-common/blob/main/LICENSE)
-    - [TypeScript code generator](#typescript-code-generator)
-      - [code](https://github.com/datafoodconsortium/connector-codegen-typescript) | [issues](https://github.com/datafoodconsortium/connector-codegen-typescript/issues) | 
-[PR](https://github.com/datafoodconsortium/connector-codegen-typescript/pulls) | [doc](https://github.com/datafoodconsortium/connector-codegen-typescript) | [AGPL-3 licence](https://github.com/datafoodconsortium/connector-codegen-typescript/blob/main/LICENSE)
-    - [Ruby code generator](#ruby-code-generator)
-      - [code](https://github.com/datafoodconsortium/connector-codegen-ruby) | [issues](https://github.com/datafoodconsortium/connector-codegen-ruby/issues) | 
-[PR](https://github.com/datafoodconsortium/connector-codegen-ruby/pulls) | [doc](https://github.com/datafoodconsortium/connector-codegen-ruby) | [AGPL-3 licence](https://github.com/datafoodconsortium/connector-codegen-ruby/blob/main/LICENSE)
+  - [Php](#php)  
+  - [Source code generator](#source-code-generator)
 
 ## The big picture
 
@@ -159,7 +162,21 @@ It provides:
 - Ruby objects that comply with the DFC ontology (they are mapped). For instance you can create `SuppliedProduct` or `Offer`;
 - Function to easily export data in the JSON-LD format.
 
+### Php
+
+[code](https://github.com/datafoodconsortium/connector-php) | [issues](https://github.com/datafoodconsortium/connector-php/issues) | 
+[PR](https://github.com/datafoodconsortium/connector-php/pulls) | [doc](https://github.com/datafoodconsortium/connector-php) | [MIT licence](https://github.com/datafoodconsortium/connector-php/blob/main/LICENSE)
+
+This is the Php version of the connector. You can use it in your platform to implement the DFC standard easier.
+
+It provides:
+- Php objects that comply with the DFC ontology (they are mapped). For instance you can create `SuppliedProduct` or `Offer`;
+- Function to easily import and export data in the JSON-LD format.
+
 ### Source code generator
+
+[code](https://github.com/datafoodconsortium/connector-codegen) | [issues](https://github.com/datafoodconsortium/connector-codegen/issues) | 
+[PR](https://github.com/datafoodconsortium/connector-codegen/pulls) | [doc](https://github.com/datafoodconsortium/connector-codegen) | [AGPL-3 licence](https://github.com/datafoodconsortium/connector-codegen/blob/main/LICENSE)
 
 As all the DFC platforms are not built using the same programming language, we decided to make a source code generator to ease the development and the maintainance of the connector. We are able to generate the connector source code from an UML model thanks to a model-to-text transformer (Acceleo).
 
@@ -167,23 +184,13 @@ This source code generator uses:
 - Acceleo: a tool to perform model-to-text transformation;
 - An Unified Modeling Language (UML) data model as input.
 
-#### Common code generator
-
-[code](https://github.com/datafoodconsortium/connector-codegen-common) | [issues](https://github.com/datafoodconsortium/connector-codegen-common/issues) | 
-[PR](https://github.com/datafoodconsortium/connector-codegen-common/pulls) | [doc](https://github.com/datafoodconsortium/connector-codegen-common) | [AGPL-3 licence](https://github.com/datafoodconsortium/connector-codegen-common/blob/main/LICENSE)
-
-This project contains common functions and helpers to generate the source code of the connector.
-
-#### TypeScript code generator
-
-[code](https://github.com/datafoodconsortium/connector-codegen-typescript) | [issues](https://github.com/datafoodconsortium/connector-codegen-typescript/issues) | 
-[PR](https://github.com/datafoodconsortium/connector-codegen-typescript/pulls) | [doc](https://github.com/datafoodconsortium/connector-codegen-typescript) | [AGPL-3 licence](https://github.com/datafoodconsortium/connector-codegen-typescript/blob/main/LICENSE)
-
-This project contains TypeScript functions and helpers to generate the source code of the TypeScript connector. It makes use of the Common code generator project.
-
-#### Ruby code generator
-
-[code](https://github.com/datafoodconsortium/connector-codegen-ruby) | [issues](https://github.com/datafoodconsortium/connector-codegen-ruby/issues) | 
-[PR](https://github.com/datafoodconsortium/connector-codegen-ruby/pulls) | [doc](https://github.com/datafoodconsortium/connector-codegen-ruby) | [AGPL-3 licence](https://github.com/datafoodconsortium/connector-codegen-ruby/blob/main/LICENSE)
-
-This project contains Ruby functions and helpers to generate the source code of the Ruby connector. It makes use of the Common code generator project.
+[standard]: https://github.com/datafoodconsortium/standard
+[ontology]: https://github.com/datafoodconsortium/ontology
+[taxonomies]: https://github.com/datafoodconsortium/taxonomies
+[prototype]: https://github.com/datafoodconsortium/prototype
+[business-api]: https://github.com/datafoodconsortium/business-api
+[connector-typescript]: https://github.com/datafoodconsortium/connector-typescript
+[connector-ruby]: https://github.com/datafoodconsortium/connector-ruby
+[connector-php]: https://github.com/datafoodconsortium/connector-php
+[connector-codegen]: https://github.com/datafoodconsortium/connector-cedegen
+[data-model-uml]: https://github.com/datafoodconsortium/data-model-uml
