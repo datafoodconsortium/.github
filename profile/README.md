@@ -192,5 +192,5 @@ This source code generator uses:
 [connector-typescript]: https://github.com/datafoodconsortium/connector-typescript
 [connector-ruby]: https://github.com/datafoodconsortium/connector-ruby
 [connector-php]: https://github.com/datafoodconsortium/connector-php
-[connector-codegen]: https://github.com/datafoodconsortium/connector-cedegen
+[connector-codegen]: https://github.com/datafoodconsortium/connector-codegen
 [data-model-uml]: https://github.com/datafoodconsortium/data-model-uml
