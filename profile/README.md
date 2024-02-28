@@ -16,7 +16,7 @@ To discuss about technical subjects, please use our GitHub discussions.
 
 You can also contact us by [email](mailto:hello@datafoodconsortium.org).
 
-We meet on Zoom, here are a few of our regular working groups:
+We meet on Zoom, these are our regular working groups:
 
 | Meeting | Description | Language | Date |
 | ------- | ----------- | -------- | ---- |
@@ -31,6 +31,7 @@ Please contact us through our [Slack workspace](https://app.slack.com/client/T3C
 ## Table of contents
 
 - [The big picture](#the-big-picture)
+- [Frequently Asked Questions](#Frequently-Asked-Questions)
 - [Technical prerequisites](#technical-prerequisites)
 - [Standard](#standard)
 - [Ontology](#ontology)
@@ -46,11 +47,37 @@ Please contact us through our [Slack workspace](https://app.slack.com/client/T3C
 
 ## The Big Picture
 
-The Data Food Consortium (DFC) facilitated data-interoperability between platforms used by producers in short food systems. The end user is able to manage their own data on every DFC compliant platform. For example, when products are sold on one platform, the stock for the same products can be automatically adjusted on every other platforms the producer is selling on. The producer can update all of their data like product information on all DFC platforms, from only one platform.
+
+## Frequently Asked Questions
+
+### - What is the DFC?
+
+The Data Food Consortium (DFC) is , currently, both a data-interoperability standard working in the short food systems space, and also name of the (original) French project implementing that standard. This website relates to the DFC Standard, for more information on the French project see [the Data Food Consortium website](https://www.datafoodconsortium.org/fr/)
+
+The DFC Standard facilitates data-interoperability between platforms used by producers in short food systems. The end user is able to manage their own data on every DFC compliant platform. For example, when products are sold on one platform, the stock for the same products can be automatically adjusted on every other platforms the producer is selling on. The producer can update all of their data like product information on all DFC platforms, from only one platform.
 
 To make this possible, all the platforms must follow an agreed standard. That is the role of the DFC: provide on open standard to define the way platforms work together. Our standard is itself based on other open standards like RDF, JSON-LD, Linked Data Platform (LDP), and OpenID Connect (OIDC).
 
-The DFC Standard required that the data exposed by the platforms is always data of an authenticated user, who is either the data owner or has explicit consent of the data owner to view/manage data on their behalf.
+The DFC Standard requires that the data exposed by the platforms is always data of an authenticated user, who is either the data owner or has explicit consent of the data owner to view/manage data on their behalf.
+
+
+### - Who is it for?
+
+The DFC Standard is provided for Producers in Short Supply Chains, and is intended for implementation by platforms that support that user community. We are particularly aligned with the [Elements of Agroecology](https://www.fao.org/agroecology/overview/overview10elements/en/)
+
+** - I have a short food chain project. Can I work with you?**
+
+To work with the DFC Standard, you'll need to utilise an aligned platform. We are currently aware of implementations in the [United Kingdom](https://fooddatacollaboration.org.uk/about/#technical) and [France](https://www.datafoodconsortium.org/fr/membres-actuels/), check out the project websites for more details of local platforms that are aligned with the DFC Standard.
+
+- I'm a developer. Can I help out?
+
+Yes! We welcome community contributions. Give us a shout in the [#tech-discussions channel](https://datafoodconsortium.slack.com/archives/C5TGDHHRN) on our slack space, or comment on an issue here on GitHub to start a conversation.
+
+- I have a website or platform for short food chains. Can I integrate with you?
+
+Definitely. We are currently developing documentation to give a clear roadmap for integrating. In the meantime, [start a discussion](https://github.com/orgs/datafoodconsortium/discussions/new?category=q-a) and we'll try our best to support your journey. Some local projects have funding to support platforms to integrate, you'll need to contact your local project to discuss that. 
+
+
 
 ## Technical prerequisites
 
