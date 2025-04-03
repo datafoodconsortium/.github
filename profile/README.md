@@ -23,7 +23,7 @@ We meet on Zoom, these are our regular working groups:
 | General | French coordination meeting. General and technical subjects. | French | Bimonthly on Thursday 11h am CET |
 | Global Governance | Global coordination meeting, non-technical. | English | 4-weekly on Thursday 12h CET |
 | Ontology | Ontology team coordination and updates - technical. | English | Bimonthly on Thursday 15h CET |
-| Technical | Technical coordination meeting, covering technical subjects outside of the Ontology. | English | Currently Bimonthly on Monday 17h am CET |
+| Technical | Technical coordination meeting, covering technical subjects outside of the Ontology. | English | Currently Bimonthly on Tuesday 16h am CET |
 
 
 Please contact us through our [Slack workspace](https://app.slack.com/client/T3CKZMVGR/) if you would like more information (or to join) any of the calls.
@@ -93,7 +93,7 @@ To be DFC compliant a platform must:
 - express the data using the concepts from the DFC's ontology in the JSON-LD format;
 - provide Linked Data Platform (LDP) endpoints to access data.
 
-To view a human readable version of our standard please visit our [Gitbook](https://datafoodconsortium.gitbook.io/).
+To view a human readable version of our standard please visit our [Gitbook](https://docs.dfc-standard.org/dfc-standard-documentation/dfc-use-cases).
 
 ## Ontology
 
@@ -104,7 +104,7 @@ In order to be interoperable, data exchanged between DFC compliant platforms mus
 
 Our ontology expresses concepts like Product, Order, Agent and so on.
 
-To view a human readable representation of our ontology please visit our [ShowVOC server](https://showvoc.datafoodconsortium.org/showvoc/#/datasets/BusinessOntology/data).
+To view a human readable representation of our ontology please visit our [ShowVOC server](https://showvoc.dfc-standard.org/).
 
 ## Taxonomies
 
@@ -116,9 +116,9 @@ The DFC standard uses [Simple Knowledge Organization System (SKOS)](https://www.
 - [Measures](https://showvoc.datafoodconsortium.org/showvoc/#/datasets/Measures/data) (units, dimensions);
 - [Facets](https://showvoc.datafoodconsortium.org/showvoc/#/datasets/Facets/data) (allergens, labels, etc).
 
-You can explore the existing taxons, through our ShowVOC instance [here](https://showvoc.datafoodconsortium.org/showvoc/#/datasets).
+You can explore the existing taxons, through our ShowVOC instance [here](https://showvoc.dfc-standard.org/showvoc/#/datasets).
 
-To add a new taxon, please open an [discussion](https://github.com/datafoodconsortium/taxonomies/discussions).
+To add a new taxon, please refer to our [Contributing Procedures](https://docs.dfc-standard.org/dfc-standard-documentation/dfc-use-cases/contributing/general-decisions), or open an [discussion](https://github.com/datafoodconsortium/taxonomies/discussions).
 
 ## Prototype
 
