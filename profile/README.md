@@ -22,7 +22,7 @@ We meet on Zoom, these are our regular working groups:
 | ------- | ----------- | -------- | ---- |
 | General | French coordination meeting. General and technical subjects. | French | Bimonthly on Thursday 11h am CET |
 | Global Governance | Global coordination meeting, non-technical. | English | 4-weekly on Thursday 12h CET |
-| Ontology | Ontology team coordination and updates - technical. | English | Bimonthly on Thursday 15h CET |
+| Ontology | Ontology team coordination and updates - technical. | English | Bimonthly on Tuesday 15h CET |
 | Technical | Technical coordination meeting, covering technical subjects outside of the Ontology. | English | Currently Bimonthly on Tuesday 16h am CET |
 
 
